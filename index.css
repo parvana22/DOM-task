@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(blue 50px,red 4px );
+}
+
+.paragraphs{
+    font-size: 25px;
+    p{
+        &.red{
+            background-color: red;
+        }
+    }
+}
